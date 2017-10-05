@@ -1,0 +1,64 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* this makes the menu responsive with smaller devices */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.menubtn {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+}
+
+.wrapper {
+  text-align: center;
+  margin: 0 30vw 0 30vw
+}
+
+body {
+  background-image: url(http://i.imgur.com/VQaJKNO.jpg);
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+}

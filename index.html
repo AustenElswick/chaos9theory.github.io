@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset="utf-8">
+  <meta name="galvanize pre class work">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap-grid.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<header>
+  <nav>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="history.html">History</a>
+</div>
+<!-- this line of code creates the hamburger menu button -->
+<span onclick="openNav()"><div class="menubtn"></div><div class="menubtn"></div><div class="menubtn"></div></span>
+<!-- this javascript is saying when the nav gets opened make it 250px wide and when it's closed return it to zero -->
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</nav>
+<h1>Japanese Animation</h1>
+</header>
+
+  <main>
+  <div class="wrapper">
+<h2>Welcome!</h2>
+<p>This website is about japanse animation, often refered to as anime. Watching anime is one of my favorite things to do to pass the time. In this website we will cover a brief History of Anime. I hope you enjoy your stay here.</p>
+</div>
+</main>
+<footer>
+  <marquee behavior="scroll" direction="left">Website made by Austen Elswick ^_^</marquee>
+</footer>
+</body>
+</html>
